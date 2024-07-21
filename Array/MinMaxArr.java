@@ -45,6 +45,8 @@ public class MinMaxArr {
 
         int differ = check(array);
         System.out.print(differ);
+        int max = stockMax(array);
+        System.out.println(max);
 
     }
 
